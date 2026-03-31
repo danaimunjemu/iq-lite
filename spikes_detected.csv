@@ -1,0 +1,2 @@
+symbol,epoch,timestamp,price_before,price_after,magnitude,type
+CRASH1000,1774921645,2026-03-31T03:47:25,5390.77700,5389.94000,-0.83700,Crash

@@ -1,0 +1,79 @@
+exchange_is_open,is_trading_suspended,market,pip_size,subgroup,submarket,trade_count,underlying_symbol,underlying_symbol_name,underlying_symbol_type
+1,0,synthetic_index,0.01,synthetics,random_index,81904,1HZ100V,Volatility 100 (1s) Index,stockindex
+1,0,synthetic_index,0.01,synthetics,random_index,17056,1HZ10V,Volatility 10 (1s) Index,stockindex
+1,0,synthetic_index,0.01,synthetics,random_index,8386,1HZ25V,Volatility 25 (1s) Index,stockindex
+1,0,synthetic_index,0.01,synthetics,random_index,10020,1HZ50V,Volatility 50 (1s) Index,stockindex
+1,0,synthetic_index,0.01,synthetics,random_index,23871,1HZ75V,Volatility 75 (1s) Index,stockindex
+1,0,synthetic_index,0.001,synthetics,crash_index,524,BOOM1000,Boom 1000 Index,
+1,0,synthetic_index,0.001,synthetics,crash_index,162,BOOM500,Boom 500 Index,
+1,0,synthetic_index,0.001,synthetics,crash_index,80,BOOM600,Boom 600 Index,
+1,0,synthetic_index,0.001,synthetics,crash_index,212,BOOM900,Boom 900 Index,
+1,0,synthetic_index,0.001,synthetics,crash_index,222,CRASH1000,Crash 1000 Index,
+1,0,synthetic_index,0.001,synthetics,crash_index,114,CRASH500,Crash 500 Index,
+1,0,synthetic_index,0.001,synthetics,crash_index,109,CRASH600,Crash 600 Index,
+1,0,synthetic_index,0.001,synthetics,crash_index,118,CRASH900,Crash 900 Index,
+1,0,synthetic_index,0.01,synthetics,jump_index,1302,JD10,Jump 10 Index,stockindex
+1,0,synthetic_index,0.01,synthetics,jump_index,983,JD100,Jump 100 Index,stockindex
+1,0,synthetic_index,0.01,synthetics,jump_index,906,JD25,Jump 25 Index,stockindex
+1,0,synthetic_index,0.01,synthetics,jump_index,386,JD50,Jump 50 Index,stockindex
+1,0,synthetic_index,0.01,synthetics,jump_index,207,JD75,Jump 75 Index,stockindex
+0,0,indices,0.01,none,europe_OTC,0,OTC_AEX,Netherlands 25,stockindex
+1,0,indices,0.01,none,asia_oceania_OTC,3,OTC_AS51,Australia 200,stockindex
+0,0,indices,0.01,none,americas_OTC,2,OTC_DJI,Wall Street 30,stockindex
+0,0,indices,0.01,none,europe_OTC,0,OTC_FCHI,France 40,stockindex
+0,0,indices,0.01,none,europe_OTC,0,OTC_FTSE,UK 100,stockindex
+0,0,indices,0.01,none,europe_OTC,1,OTC_GDAXI,Germany 40,stockindex
+1,0,indices,0.01,none,asia_oceania_OTC,0,OTC_HSI,Hong Kong 50,stockindex
+1,0,indices,0.01,none,asia_oceania_OTC,1,OTC_N225,Japan 225,stockindex
+0,0,indices,0.01,none,americas_OTC,3,OTC_NDX,US Tech 100,stockindex
+0,0,indices,0.01,none,americas_OTC,9,OTC_SPC,US 500,stockindex
+0,0,indices,0.01,none,europe_OTC,0,OTC_SSMI,Swiss 20,stockindex
+0,0,indices,0.01,none,europe_OTC,0,OTC_SX5E,Euro 50,stockindex
+1,0,synthetic_index,0.0001,synthetics,random_daily,850,RDBEAR,Bear Market Index,stockindex
+1,0,synthetic_index,0.0001,synthetics,random_daily,710,RDBULL,Bull Market Index,stockindex
+1,0,synthetic_index,0.001,synthetics,random_index,16135,R_10,Volatility 10 Index,stockindex
+1,0,synthetic_index,0.01,synthetics,random_index,27386,R_100,Volatility 100 Index,stockindex
+1,0,synthetic_index,0.001,synthetics,random_index,5426,R_25,Volatility 25 Index,stockindex
+1,0,synthetic_index,0.0001,synthetics,random_index,8685,R_50,Volatility 50 Index,stockindex
+1,0,synthetic_index,0.0001,synthetics,random_index,33223,R_75,Volatility 75 Index,stockindex
+1,0,synthetic_index,0.001,baskets,forex_basket,10,WLDAUD,AUD Basket,forex_basket
+1,0,synthetic_index,0.001,baskets,forex_basket,23,WLDEUR,EUR Basket,forex_basket
+1,0,synthetic_index,0.001,baskets,forex_basket,1,WLDGBP,GBP Basket,forex_basket
+1,0,synthetic_index,0.001,baskets,forex_basket,5,WLDUSD,USD Basket,forex_basket
+1,0,synthetic_index,0.001,baskets,commodity_basket,35,WLDXAU,Gold Basket,commodity_basket
+1,0,cryptocurrency,0.001,none,non_stable_coin,265,cryBTCUSD,BTC/USD,cryptocurrency
+1,0,cryptocurrency,1e-05,none,non_stable_coin,125,cryETHUSD,ETH/USD,cryptocurrency
+1,0,forex,1e-05,none,minor_pairs,13,frxAUDCAD,AUD/CAD,forex
+1,0,forex,1e-05,none,minor_pairs,2,frxAUDCHF,AUD/CHF,forex
+1,0,forex,0.001,none,major_pairs,28,frxAUDJPY,AUD/JPY,forex
+1,0,forex,1e-05,none,minor_pairs,4,frxAUDNZD,AUD/NZD,forex
+1,0,forex,1e-05,none,major_pairs,39,frxAUDUSD,AUD/USD,forex
+1,0,forex,1e-05,none,major_pairs,13,frxEURAUD,EUR/AUD,forex
+1,0,forex,1e-05,none,major_pairs,12,frxEURCAD,EUR/CAD,forex
+1,0,forex,1e-05,none,major_pairs,4,frxEURCHF,EUR/CHF,forex
+1,0,forex,1e-05,none,major_pairs,6,frxEURGBP,EUR/GBP,forex
+1,0,forex,0.001,none,major_pairs,18,frxEURJPY,EUR/JPY,forex
+1,0,forex,1e-05,none,minor_pairs,3,frxEURNZD,EUR/NZD,forex
+1,0,forex,1e-05,none,major_pairs,135,frxEURUSD,EUR/USD,forex
+1,0,forex,1e-05,none,major_pairs,9,frxGBPAUD,GBP/AUD,forex
+1,0,forex,1e-05,none,minor_pairs,17,frxGBPCAD,GBP/CAD,forex
+1,0,forex,1e-05,none,minor_pairs,3,frxGBPCHF,GBP/CHF,forex
+1,0,forex,0.001,none,major_pairs,4,frxGBPJPY,GBP/JPY,forex
+1,0,forex,1e-05,none,minor_pairs,3,frxGBPNZD,GBP/NZD,forex
+1,0,forex,1e-05,none,major_pairs,34,frxGBPUSD,GBP/USD,forex
+1,0,forex,0.001,none,minor_pairs,5,frxNZDJPY,NZD/JPY,forex
+1,0,forex,1e-05,none,minor_pairs,6,frxNZDUSD,NZD/USD,forex
+1,0,forex,1e-05,none,major_pairs,16,frxUSDCAD,USD/CAD,forex
+1,0,forex,1e-05,none,major_pairs,0,frxUSDCHF,USD/CHF,forex
+1,0,forex,0.001,none,major_pairs,18,frxUSDJPY,USD/JPY,forex
+1,0,forex,0.0001,none,minor_pairs,5,frxUSDMXN,USD/MXN,forex
+1,0,forex,0.0001,none,minor_pairs,0,frxUSDPLN,USD/PLN,forex
+1,0,commodities,0.0001,none,metals,33,frxXAGUSD,Silver/USD,commodities
+1,0,commodities,0.01,none,metals,353,frxXAUUSD,Gold/USD,commodities
+1,0,commodities,0.01,none,metals,2,frxXPDUSD,Palladium/USD,commodities
+1,0,commodities,0.01,none,metals,0,frxXPTUSD,Platinum/USD,commodities
+1,0,synthetic_index,0.1,synthetics,step_index,1658,stpRNG,Step Index 100,
+1,0,synthetic_index,0.1,synthetics,step_index,138,stpRNG2,Step Index 200,
+1,0,synthetic_index,0.1,synthetics,step_index,60,stpRNG3,Step Index 300,
+1,0,synthetic_index,0.1,synthetics,step_index,72,stpRNG4,Step Index 400,
+1,0,synthetic_index,0.1,synthetics,step_index,500,stpRNG5,Step Index 500,
