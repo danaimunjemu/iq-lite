@@ -1,0 +1,19 @@
+INFO:ingestion.backtester:Starting hybrid backtest for CRASH1000...
+INFO:ingestion.backtester:[CRASH1000] Processed 200 ticks...
+INFO:ingestion.backtester:[CRASH1000] Processed 400 ticks...
+INFO:ingestion.backtester:[CRASH1000] Processed 600 ticks...
+INFO:ingestion.backtester:[CRASH1000] Processed 800 ticks...
+INFO:ingestion.backtester:[CRASH1000] Processed 1000 ticks...
+--- Hybrid M5 Backtest Simulation ---
+
+Final Results for CRASH1000:
+  Final Balance: $1000.00
+  Net PnL: $0.00
+  Total Trades: 0
+Traceback (most recent call last):
+  File "/Users/danaimunjemu/Documents/iq-lite/test_hybrid_backtest.py", line 41, in <module>
+    test_hybrid_backtest()
+  File "/Users/danaimunjemu/Documents/iq-lite/test_hybrid_backtest.py", line 31, in test_hybrid_backtest
+    print(f"  Win Rate: {result.win_rate_percent}%")
+                         ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BacktestResult' object has no attribute 'win_rate_percent'

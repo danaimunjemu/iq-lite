@@ -1,0 +1,1317 @@
+Screen {
+    background: #0f172a;
+}
+
+#risk-bar {
+    height: 3;
+    width: 100%;
+    background: #1e293b;
+    border-bottom: solid #334155;
+}
+
+#risk-stats {
+    height: 3;
+    content-align: center middle;
+}
+
+#risk-stats Static {
+    width: 25%;
+    text-align: center;
+    text-style: bold;
+    padding: 0 1;
+}
+
+#stat-balance { color: #f8fafc; }
+#stat-equity { color: #38bdf8; }
+#stat-pnl { color: #4ade80; }
+#stat-drawdown { color: #f87171; }
+
+.panel {
+    border: solid #334155;
+    margin: 1;
+    height: 100%;
+    background: #1e293b;
+}
+
+.panel-title {
+    width: auto;
+    background: #334155;
+    color: #f8fafc;
+    text-style: bold;
+    padding: 0 1;
+}
+
+.monitor-title-box {
+    width: 1fr;
+    height: 1;
+}
+
+.engine-badge {
+    color: #94a3b8;
+    margin-left: 1;
+    padding: 0 1;
+    text-style: bold;
+}
+
+.engine-badge-rsi {
+    background: #f59e0b;
+    color: black;
+    margin-left: 1;
+    padding: 0 1;
+    text-style: bold;
+}
+
+.engine-badge-trend {
+    background: #06b6d4;
+    color: black;
+    margin-left: 1;
+    padding: 0 1;
+    text-style: bold;
+}
+
+#left-column {
+    width: 25%;
+}
+
+#market-data-panel {
+    height: 70%;
+}
+
+#manual-controls {
+    height: 30%;
+    border-top: solid #334155;
+    padding: 0 1;
+}
+
+#control-bar {
+    height: 100%;
+    align: center middle;
+    layout: vertical;
+}
+
+#terminal-label, #auto-label {
+    width: 100%;
+    color: #64748b;
+    text-style: bold;
+    padding: 0 1;
+    text-align: center;
+}
+
+#symbol-select {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#btn-buy, #btn-sell {
+    width: 100%;
+    margin: 0 1;
+}
+
+#auto-switch {
+    margin: 1 0;
+}
+
+#btn-close-all {
+    width: 100%;
+    margin-top: 1;
+}
+
+#strategy-signals-panel, #strategy-settings-panel {
+    width: 40%;
+}
+
+#settings-form {
+    height: 100%;
+    padding: 1 2;
+}
+
+.setting-row {
+    height: auto;
+    margin-bottom: 1;
+    align: left middle;
+}
+
+.setting-row Label {
+    width: 25;
+    color: #94a3b8;
+}
+
+.setting-row Input {
+    width: 15;
+}
+
+#btn-apply-settings {
+    margin-top: 2;
+    width: 100%;
+}
+
+.signal-high-confidence {
+    background: #422006;
+    color: #facc15;
+    text-style: bold;
+}
+
+#right-column {
+    width: 35%;
+    layout: vertical;
+}
+
+#open-trades-panel {
+    height: 50%;
+}
+
+#history-panel {
+    height: 50%;
+    border-top: solid #334155;
+}
+
+#history-panel DataTable {
+    height: 100%;
+}
+
+#bottom-section {
+    height: 30%;
+    layout: horizontal;
+    border: solid #334155;
+    margin: 1;
+    background: #0f172a;
+}
+
+#log-panel-wrapper {
+    width: 65%;
+}
+
+#performance-panel {
+    width: 35%;
+    border-left: solid #334155;
+    padding: 0 1;
+}
+
+#perf-container {
+    height: 100%;
+    align: center middle;
+    layout: vertical;
+}
+
+#perf-stats {
+    height: auto;
+    margin-bottom: 1;
+}
+
+#perf-stats Static {
+    width: 1fr;
+    text-align: center;
+    color: #94a3b8;
+    text-style: bold;
+}
+
+#session-profit {
+    color: #10b981;
+}
+
+#equity-sparkline {
+    width: 100%;
+    height: 1fr;
+    color: #06b6d4;
+}
+
+#monitor-header {
+    height: 3;
+    width: 100%;
+}
+
+#monitor-price {
+    color: #38bdf8;
+    width: 60%;
+    padding: 1 2;
+    text-style: bold;
+}
+
+#monitor-change {
+    width: 40%;
+    text-align: right;
+    padding: 1 2;
+}
+
+#monitor-sparkline {
+    height: 3;
+    color: #38bdf8;
+}
+
+#monitor-details {
+    height: 14;
+    layout: horizontal;
+    border-top: solid #334155;
+}
+
+#monitor-candles {
+    width: 45%;
+}
+
+#monitor-ticks {
+    width: 25%;
+    border-left: solid #334155;
+}
+
+#monitor-insight {
+    width: 30%;
+    border-left: solid #334155;
+    padding: 0 1;
+}
+
+.insight-row {
+    height: 1;
+}
+
+.insight-row Label {
+    width: 12;
+    color: #94a3b8;
+    text-style: bold;
+}
+
+.insight-row Static {
+    width: 1fr;
+    text-align: right;
+}
+
+#Decision-row {
+    margin-top: 1;
+    border-top: dashed #334155;
+}
+
+.stat-green, .status-green {
+    color: #10b981;
+    text-style: bold;
+}
+
+.stat-red, .status-red {
+    color: #f43f5e;
+    text-style: bold;
+}
+
+.status-yellow {
+    color: #fbbf24;
+    text-style: bold;
+}
+
+.status-neutral {
+    color: #94a3b8;
+}
+
+.decision-buy { background: #064e3b; color: #4ade80; text-style: bold; border: double #059669; }
+.decision-sell { background: #450a0a; color: #f87171; text-style: bold; border: double #b91c1c; }
+.decision-skip { background: #1e293b; color: #94a3b8; text-style: bold; border: double #334155; }
+
+#insight-decision {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-mini {
+    height: 1;
+    min-width: 8;
+    padding: 0 1;
+    margin: 0;
+    border: none;
+    background: #475569;
+    color: white;
+}
+
+#focus-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #334155;
+    width: 85%;
+    height: 85%;
+    align: center middle;
+}
+
+#focus-title {
+    width: 100%;
+    text-align: center;
+    background: #1e293b;
+    color: #38bdf8;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#focus-stats-row {
+    height: 3;
+    width: 100%;
+    align: center middle;
+}
+
+#focus-stats-row Static {
+    width: 1fr;
+    text-align: center;
+    color: #94a3b8;
+    text-style: bold;
+}
+
+#focus-price { color: #f8fafc; }
+#focus-rsi { color: #38bdf8; }
+#focus-spike { color: #f43f5e; }
+
+#focus-sparkline {
+    height: 8;
+    color: #06b6d4;
+    margin: 1 0;
+}
+
+#focus-tick-table {
+    height: 1fr;
+    background: #1e293b;
+}
+
+#focus-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #334155;
+}
+
+#focus-actions Button {
+    width: 1fr;
+    margin: 0 1;
+}
+
+#monitor-candles DataTable, #monitor-ticks DataTable {
+    height: 100%;
+    background: transparent;
+}
+
+DataTable {
+    background: #1e293b;
+    color: #f8fafc;
+}
+
+#config-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #334155;
+    width: 60%;
+    height: 75%;
+    align: center middle;
+}
+
+#config-title {
+    width: 100%;
+    text-align: center;
+    background: #1e293b;
+    color: #f59e0b;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#config-fields {
+    height: 1fr;
+    padding: 0 2;
+}
+
+#config-fields Label {
+    margin-top: 1;
+    color: #94a3b8;
+    text-style: bold;
+}
+
+#config-fields Input {
+    border: none;
+    background: #1e293b;
+}
+
+#config-actions {
+    height: 3;
+    margin-top: 1;
+    align: center middle;
+    border-top: solid #334155;
+}
+
+#config-actions Button {
+    margin: 0 2;
+    width: 20;
+}
+
+.cfg-strategy-row {
+    height: 3;
+    padding: 0 1;
+    border-bottom: solid #334155;
+}
+
+.cfg-symbol-lbl {
+    width: 15;
+    color: #f8fafc;
+    text-style: bold;
+    padding-top: 1;
+}
+
+#forensics-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #334155;
+    width: 90%;
+    height: 90%;
+    align: center middle;
+}
+
+#forensics-title {
+    width: 100%;
+    text-align: center;
+    background: #1e293b;
+    color: #06b6d4;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#forensics-summary-row {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    background: #1e293b;
+    margin-bottom: 1;
+}
+
+#forensics-summary-row Static {
+    width: 1fr;
+    text-align: center;
+    color: #f8fafc;
+    text-style: bold;
+}
+
+#forensics-sparkline {
+    height: 8;
+    color: #22d3ee;
+    margin: 1 0;
+    background: #1e293b;
+}
+
+#forensics-tables {
+    height: 1fr;
+    width: 100%;
+}
+
+.forensics-vbox {
+    width: 1fr;
+    margin: 0 1;
+    border: solid #334155;
+    padding: 0 1;
+}
+
+.forensics-vbox Label {
+    width: 100%;
+    text-align: center;
+    background: #334155;
+    color: #f8fafc;
+    text-style: bold;
+}
+
+.forensics-vbox DataTable {
+    height: 1fr;
+    background: transparent;
+}
+
+#forensics-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #334155;
+}
+
+#forensics-total-pnl { color: #10b981; }
+#forensics-drawdown { color: #f43f5e; }
+
+#risk-banner {
+    width: 100%;
+    height: 3;
+    background: #4c0519;
+    color: #f43f5e;
+    text-align: center;
+    content-align: center middle;
+    text-style: bold;
+    border: double #9f1239;
+    margin-bottom: 1;
+}
+
+#sim-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #581c87;
+    width: 90%;
+    height: 90%;
+    align: center middle;
+}
+
+#sim-title {
+    width: 100%;
+    text-align: center;
+    background: #1e293b;
+    color: #a855f7;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#sim-controls {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    background: #1e293b;
+    margin-bottom: 1;
+}
+
+#sim-controls Select, #sim-controls Button {
+    width: 20%;
+    margin: 0 1;
+}
+
+#sim-results {
+    height: 1fr;
+    width: 100%;
+}
+
+#sim-metrics-box {
+    width: 30%;
+    margin: 0 1;
+    border: solid #334155;
+}
+
+#sim-chart-box {
+    width: 70%;
+    margin: 0 1;
+    border: solid #334155;
+    background: #1e293b;
+}
+
+#sim-metrics-box Label, #sim-chart-box Label {
+    width: 100%;
+    text-align: center;
+    background: #334155;
+    color: #f8fafc;
+    text-style: bold;
+}
+
+#sim-sparkline {
+    height: 1fr;
+    color: #c084fc;
+    margin: 1 2;
+}
+
+#sim-metrics {
+    height: 1fr;
+    background: transparent;
+}
+
+#sim-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #334155;
+}
+
+#export-container {
+    padding: 1 4;
+    background: #064e3b;
+    border: thick #059669;
+    width: 60%;
+    height: 60%;
+    align: center middle;
+}
+
+#export-title {
+    width: 100%;
+    text-align: center;
+    background: #065f46;
+    color: #34d399;
+    text-style: bold;
+    margin-bottom: 2;
+}
+
+#export-options {
+    height: 1fr;
+    padding: 0 2;
+}
+
+#export-options Label {
+    margin-top: 1;
+    color: #f8fafc;
+    text-style: bold;
+}
+
+.export-info {
+    margin-top: 1;
+    color: #6ee7b7;
+    text-style: italic;
+    text-align: center;
+}
+
+#export-actions {
+    height: 3;
+    margin-top: 2;
+    align: center middle;
+    border-top: solid #059669;
+}
+
+#export-actions Button {
+    margin: 0 2;
+    width: 20;
+}
+
+#heatmap-container {
+    padding: 1 4;
+    background: #0c0a09;
+    border: thick #78350f;
+    width: 80%;
+    height: 80%;
+    align: center middle;
+}
+
+#heatmap-title {
+    width: 100%;
+    text-align: center;
+    background: #1c1917;
+    color: #f59e0b;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#heatmap-table {
+    height: 1fr;
+    background: transparent;
+    border: solid #44403c;
+}
+
+#heatmap-table > .datatable--header {
+    background: #292524;
+    color: #fbbf24;
+    text-style: bold;
+}
+
+#heatmap-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #44403c;
+}
+
+#active-toast {
+    width: 40;
+    height: 3;
+    dock: top;
+    margin: 1 2;
+    padding: 0 2;
+    background: #1e1b4b;
+    border: double #4338ca;
+    color: #e0e7ff;
+    content-align: center middle;
+    text-style: bold;
+    layer: top;
+}
+
+.gold-toast {
+    background: #422006;
+    border: double #eab308;
+    color: #fefce8;
+}
+
+#alert-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #1e293b;
+    width: 60%;
+    height: 60%;
+    align: center middle;
+}
+
+#alert-title {
+    width: 100%;
+    text-align: center;
+    background: #1e293b;
+    color: #38bdf8;
+    text-style: bold;
+    margin-bottom: 2;
+}
+
+#alt-audio-row {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+}
+
+.alert-info {
+    margin-top: 2;
+    color: #94a3b8;
+    text-style: italic;
+    text-align: center;
+}
+
+#alert-actions {
+    height: 3;
+    margin-top: 2;
+    align: center middle;
+    border-top: solid #1e293b;
+}
+
+#alert-actions Button {
+    margin: 0 2;
+    width: 20;
+}
+
+#template-container {
+    padding: 1 4;
+    background: #083344;
+    border: thick #0891b2;
+    width: 80%;
+    height: 80%;
+    align: center middle;
+}
+
+#template-title {
+    width: 100%;
+    text-align: center;
+    background: #0e7490;
+    color: #22d3ee;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#template-sidebar {
+    width: 30%;
+    border-right: solid #0e7490;
+    padding: 0 2;
+}
+
+#template-preview {
+    width: 70%;
+    padding: 0 4;
+}
+
+.preview-box {
+    margin-top: 1;
+    padding: 1 2;
+    background: #0c4a6e;
+    color: #bae6fd;
+    border: dashed #0891b2;
+    height: 1fr;
+}
+
+#template-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #0e7490;
+}
+
+#template-actions Button {
+    margin: 0 2;
+}
+
+#integrity-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #475569;
+    width: 80%;
+    height: 80%;
+    align: center middle;
+}
+
+#integrity-title {
+    width: 100%;
+    text-align: center;
+    background: #1e293b;
+    color: #94a3b8;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#integrity-table {
+    height: 1fr;
+    background: transparent;
+    border: solid #334155;
+}
+
+#integrity-table > .datatable--header {
+    background: #1e293b;
+    color: #cbd5e1;
+    text-style: bold;
+}
+
+#integrity-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #334155;
+}
+
+#integrity-actions Button {
+    margin: 0 1;
+}
+
+#optimizer-container {
+    padding: 1 4;
+    background: #020617;
+    border: thick #78350f;
+    width: 80%;
+    height: 80%;
+    align: center middle;
+}
+
+#optimizer-title {
+    width: 100%;
+    text-align: center;
+    background: #451a03;
+    color: #f59e0b;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#optimizer-controls {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    background: #1e1b4b;
+    padding: 0 2;
+    color: #e0e7ff;
+}
+
+#optimizer-controls Select {
+    width: 20;
+    margin: 0 2;
+}
+
+#optimizer-table {
+    height: 1fr;
+    background: transparent;
+    border: solid #451a03;
+}
+
+#optimizer-table > .datatable--header {
+    background: #451a03;
+    color: #fbbf24;
+    text-style: bold;
+}
+
+#optimizer-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #451a03;
+}
+
+#optimizer-actions Button {
+    margin: 0 1;
+}
+
+#macro-container {
+    padding: 1 4;
+    background: #020617;
+    border: thick #059669;
+    width: 90%;
+    height: 90%;
+    align: center middle;
+}
+
+#macro-title {
+    width: 100%;
+    text-align: center;
+    background: #064e3b;
+    color: #10b981;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#macro-controls {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    background: #1e1b4b;
+    padding: 0 2;
+    color: #e0e7ff;
+}
+
+.sym-btn {
+    width: 15;
+    margin: 0 1;
+}
+
+#macro-grid {
+    grid-size: 3 2;
+    grid-gutter: 1;
+    height: 1fr;
+    padding: 1 2;
+}
+
+.macro-card {
+    background: #064e3b;
+    border: solid #10b981;
+    padding: 1 2;
+    color: #d1fae5;
+}
+
+.tf-label {
+    width: 100%;
+    text-align: center;
+    background: #10b981;
+    color: #064e3b;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+.status-label {
+    text-style: bold;
+    margin-top: 1;
+    color: #fcd34d;
+}
+
+#macro-global-sentiment {
+    width: 100%;
+    text-align: center;
+    padding: 1 0;
+    background: #111827;
+    color: #10b981;
+    text-style: bold;
+    border-top: solid #059669;
+}
+
+#macro-close {
+    margin-top: 1;
+    width: 20;
+    align: center middle;
+}
+
+#ladder-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #0ea5e9;
+    width: 60%;
+    height: 95%;
+    align: center middle;
+}
+
+#ladder-title {
+    width: 100%;
+    text-align: center;
+    background: #0369a1;
+    color: #bae6fd;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#ladder-table {
+    height: 1fr;
+    background: transparent;
+    border: solid #0369a1;
+}
+
+#ladder-table > .datatable--header {
+    background: #0369a1;
+    color: #bae6fd;
+    text-style: bold;
+}
+
+#ladder-table .datatable--cursor {
+    background: #0ea5e9 30%;
+    color: white;
+}
+
+#ladder-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #0369a1;
+}
+
+#ladder-actions Button {
+    margin: 0 1;
+}
+
+#palette-container {
+    padding: 1 2;
+    background: #020617;
+    border: thick #1e293b;
+    width: 60%;
+    height: 60%;
+    align: center middle;
+}
+
+#palette-search {
+    width: 100%;
+    background: #111827;
+    color: #e2e8f0;
+    border: solid #334155;
+    text-style: bold;
+    margin-bottom: 0;
+}
+
+#palette-results {
+    height: 1fr;
+    background: transparent;
+    border: none;
+}
+
+#palette-results .datatable--header {
+    display: none;
+}
+
+#palette-results .datatable--cursor {
+    background: #1e293b;
+    color: #38bdf8;
+    text-style: bold;
+}
+
+#palette-hint {
+    width: 100%;
+    text-align: right;
+    color: #475569;
+    padding-right: 1;
+}
+
+#diag-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #f97316;
+    width: 80%;
+    height: 80%;
+    align: center middle;
+}
+
+#diag-title {
+    width: 100%;
+    text-align: center;
+    background: #7c2d12;
+    color: #fdba74;
+    text-style: bold;
+    margin-bottom: 2;
+}
+
+#diag-grid {
+    grid-size: 2 2;
+    grid-gutter: 1;
+    height: 1fr;
+    padding: 1 2;
+}
+
+.diag-stat {
+    background: #1e293b;
+    border: solid #475569;
+    padding: 1 2;
+    align: center middle;
+}
+
+.diag-stat Label {
+    width: 100%;
+    text-align: center;
+    color: #94a3b8;
+}
+
+#lat-value, #tps-value, #cpu-value, #ram-value {
+    color: #fb923c;
+    text-style: bold;
+}
+
+#lat-sparkline {
+    width: 100%;
+    height: 3;
+    color: #ea580c;
+}
+
+#diag-health {
+    width: 100%;
+    text-align: center;
+    padding: 1 0;
+    background: #1e293b;
+    color: #4ade80;
+    text-style: bold;
+    border-top: solid #475569;
+    margin-top: 1;
+}
+
+#diag-close {
+    margin-top: 1;
+    width: 25;
+}
+
+#radar-container {
+    padding: 1 4;
+    background: #020617;
+    border: thick #10b981;
+    width: 95%;
+    height: 95%;
+    align: center middle;
+}
+
+#radar-title {
+    width: 100%;
+    text-align: center;
+    background: #064e3b;
+    color: #34d399;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#radar-metrics {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    background: #1e1b4b;
+    color: #e0e7ff;
+    padding: 0 2;
+    margin-bottom: 1;
+}
+
+#radar-metrics Static {
+    margin: 0 4;
+}
+
+#radar-matrix {
+    height: 1fr;
+    background: transparent;
+    border: solid #064e3b;
+}
+
+#radar-matrix .datatable--cursor {
+    background: #10b981 30%;
+    color: white;
+}
+
+#radar-contribution {
+    grid-size: 2 1;
+    grid-gutter: 1;
+    height: 14;
+    margin-top: 1;
+}
+
+#radar-profit-dist, #radar-vol-dist {
+    background: #111827;
+    border: solid #064e3b;
+}
+
+#radar-close {
+    margin-top: 1;
+    width: 20;
+}
+
+#proj-container {
+    padding: 1 4;
+    background: #020617;
+    border: thick #f59e0b;
+    width: 80%;
+    height: 80%;
+    align: center middle;
+}
+
+#proj-title {
+    width: 100%;
+    text-align: center;
+    background: #78350f;
+    color: #fbbf24;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#proj-metrics {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    background: #1e1b4b;
+    color: #e0e7ff;
+    padding: 0 2;
+    margin-bottom: 1;
+}
+
+#proj-metrics Static {
+    margin: 0 4;
+    text-style: bold;
+}
+
+#proj-sparkline {
+    width: 100%;
+    height: 1fr;
+    color: #f59e0b;
+    background: #111827;
+    border: solid #78350f;
+}
+
+#proj-stats-grid {
+    grid-size: 2 2;
+    grid-gutter: 1;
+    height: 6;
+    margin-top: 1;
+}
+
+#proj-stats-grid Label {
+    width: 100%;
+    text-align: center;
+    background: #1e293b;
+    color: #94a3b8;
+    border: solid #334155;
+}
+
+#proj-close {
+    margin-top: 1;
+    width: 25;
+}
+
+#notify-container {
+    padding: 1 4;
+    background: #0f172a;
+    border: thick #38bdf8;
+    width: 70%;
+    height: 85%;
+    align: center middle;
+}
+
+#notify-form {
+    height: 1fr;
+    padding: 1 2;
+}
+
+#webhook-header {
+    margin-top: 2;
+    padding: 0 1;
+    background: #0c4a6e;
+    color: #bae6fd;
+    text-style: bold;
+}
+
+.webhook-entry {
+    margin: 1 0;
+    padding: 1 2;
+    background: #1e293b;
+    border: solid #334155;
+}
+
+.webhook-entry Label {
+    color: #94a3b8;
+    margin-bottom: 1;
+}
+
+#notify-actions {
+    height: 3;
+    width: 100%;
+    align: center middle;
+    margin-top: 1;
+    border-top: solid #334155;
+}
+
+#notify-actions Button {
+    margin: 0 1;
+}
+
+.gold-toast {
+    background: #78350f !important;
+    color: #fbbf24 !important;
+    border: thick #fbbf24 !important;
+}
+
+.normal-toast {
+    background: #1e293b !important;
+    color: #f8fafc !important;
+    border: solid #475569 !important;
+}

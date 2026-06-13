@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/danaimunjemu/Documents/iq-lite/test_ingestion_sync.py", line 6, in <module>
+    from ingestion.service import IngestionOrchestrator
+  File "/Users/danaimunjemu/Documents/iq-lite/ingestion/service.py", line 5, in <module>
+    from .storage import CSVStorage
+  File "/Users/danaimunjemu/Documents/iq-lite/ingestion/storage.py", line 13, in <module>
+    class CSVStorage(StorageHandler):
+  File "/Users/danaimunjemu/Documents/iq-lite/ingestion/storage.py", line 29, in CSVStorage
+    async def write(self, data: List[Any]):
+                                     ^^^
+NameError: name 'Any' is not defined. Did you mean: 'any'?

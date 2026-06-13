@@ -1,0 +1,23 @@
+{
+    "neutral": {
+        "rsi_high": 75.0,
+        "rsi_low": 25.0,
+        "spike_prob": 0.35,
+        "max_ticks": 300,
+        "engine": "TREND_HYBRID"
+    },
+    "conservative": {
+        "rsi_high": 85.0,
+        "rsi_low": 15.0,
+        "spike_prob": 0.2,
+        "max_ticks": 120,
+        "engine": "TREND_HYBRID"
+    },
+    "aggressive": {
+        "rsi_high": 65.0,
+        "rsi_low": 35.0,
+        "spike_prob": 0.5,
+        "max_ticks": 600,
+        "engine": "RSI_CROSSBACK"
+    }
+}
